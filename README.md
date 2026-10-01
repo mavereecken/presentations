@@ -12,6 +12,13 @@ Self-contained talks, published at `https://mavereecken.github.io/presentations/
 Always share the URL **with** the trailing slash. Without it GitHub redirects,
 which works, but relative paths are only correct after the redirect.
 
+## Re-exporting a talk from the slides deck
+
+A re-export overwrites `index.html`, including our fixes to its player (sound
+recovery, loop watchdog). Re-apply them after every export:
+
+    python3 scripts/patch_player.py 2026/gravigammanu/index.html
+
 ## Shared media
 
 Clips used by several talks can go in `media/` and be referenced relatively,

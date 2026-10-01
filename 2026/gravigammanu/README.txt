@@ -23,4 +23,4 @@ HOST ONLINE
 Animated GIFs are stored as small looping MP4s, and large images are resized WebP copies, to keep the folder small.
 
 Fonts: IBM Plex Sans and Space Grotesk (SIL Open Font License), included in fonts/.
-Exported from the Claude slides deck on 30 Sept 2026; later edits in the deck are not included.
+Exported from the Claude slides deck on 1 Oct 2026; later edits in the deck are not included.
